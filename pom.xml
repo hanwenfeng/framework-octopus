@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fhw.framework</groupId>
+    <artifactId>fhw-portal</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0.0.beta1</version>
+    <modules>
+
+    </modules>
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <lombok.version>1.16.22</lombok.version>
+        <mapstruct.version>1.3.0.Final</mapstruct.version>
+
+        <fhw.portal.version>1.0.0.0.beta1</fhw.portal.version>
+
+        <!-- 框架-->
+        <fhw.boot.version>5.2.1.2.rc2-SNAPSHOT</fhw.boot.version>
+        <!-- 框架 end-->
+
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+    <build>
+    </build>
+
+</project>
